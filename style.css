@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 18.75px;
+}
+.container{
+    display: flex;
+    
+}
+.sliderBar{
+    background-color: #191718;
+    max-width: 150px;
+    height: auto;
+}
+ul{
+   list-style: none; 
+   
+}
+li{
+    padding: 14px 91px 11px 16px;
+    border-bottom: solid 1px #AAAAAA;
+}
+li a{
+    color: #AAAAAA;
+    text-decoration: none;
+    font-weight: bold;
+}
+li:hover a{
+    color: white;
+    
+}
+li:hover{
+    background-color: #5C5C5C;
+}
+
+#logo{
+    display: block;
+    background-image: url(./img/logoNCC.jpg);
+    max-width: 310px;
+    height: 122px;;
+    background-size: 100%;
+    background-repeat: no-repeat;    
+    margin: 20px auto 30px;
+}
+.group1{
+    display: block;
+    margin-left: 120px;
+    margin-right: 129px;
+    text-align: center;
+    background-color: #EFEFEF;
+    
+}
+.group1 h1{
+    padding-top: 38px;
+    padding-bottom: 18px;
+}
+.group1 p{
+   max-width: 65%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 38px;
+}
+.groupItem1{
+    display: grid;
+    grid-column: auto auto auto;
+    
+}
+.cssIcon{
+    grid-column: 1/ span 2;
+}
