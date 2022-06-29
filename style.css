@@ -7,7 +7,7 @@
     line-height: 18.75px;
 }
 .container{
-    display: flex;
+    display: flex; 
     
 }
 .sliderBar{
@@ -47,27 +47,53 @@ li:hover{
 }
 .group1{
     display: block;
-    margin-left: 120px;
-    margin-right: 129px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     background-color: #EFEFEF;
     
 }
-.group1 h1{
+.group1 h1, .group h1{
     padding-top: 38px;
     padding-bottom: 18px;
 }
 .group1 p{
-   max-width: 65%;
+   max-width: 70%;
    margin-left: auto;
    margin-right: auto;
    padding-bottom: 38px;
 }
-.groupItem1{
+.groupItem{
     display: grid;
-    grid-column: auto auto auto;
+    grid-template-columns: 40% 60%;
     
 }
-.cssIcon{
-    grid-column: 1/ span 2;
+.groupItem img{
+    max-width: 100%;
+    height: auto;
+}
+.group{    
+    margin-top: 18px;
+    margin-right: 18px;
+}
+.image{
+    grid-column: 2/ span 2;
+    
+}
+.item2{
+    grid-column: 1 / span 2;
+}
+.content-item{
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
 }
